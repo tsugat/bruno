@@ -22,7 +22,7 @@ btn.addEventListener('mouseup',function(){
 btn.addEventListener("click",function(){
   var choise = [do1,do2];
   var n = Math.floor(Math.random()*choise.length);
-result.textContent  = `今日は「${choise[n].value}」にするワン！`;
+result.textContent  = `「${choise[n].value}」にするワン！`;
 reset.classList.remove("hidden");
 });
 
